@@ -7,14 +7,22 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Thu, 19 Mar 2026 19:18:11 +0800</lastBuildDate><atom:link href="https://stephenhyt.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>MyFirstblog</title>
-        <link>https://stephenhyt.github.io/p/myfirstblog/</link>
+        <title>记录我的第一块CCPC铜牌</title>
+        <link>https://stephenhyt.github.io/p/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9D%97ccpc%E9%93%9C%E7%89%8C/</link>
         <pubDate>Thu, 19 Mar 2026 19:18:11 +0800</pubDate>
         
-        <guid>https://stephenhyt.github.io/p/myfirstblog/</guid>
-        <description>&lt;h1 id=&#34;hello-world&#34;&gt;hello world
-&lt;/h1&gt;&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;welcome to my blog!
-&lt;/h2&gt;</description>
+        <guid>https://stephenhyt.github.io/p/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9D%97ccpc%E9%93%9C%E7%89%8C/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://stephenhyt.github.io/img/ccpc-bronze.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;CCPC铜牌&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
         </item>
         
     </channel>
