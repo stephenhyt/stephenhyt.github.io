@@ -21,8 +21,8 @@ hasCJKLanguage = true
     customText = ''
 
   [params.sidebar]
-    emoji = '😴'
-    subtitle = '打过勾的我相信'
+    emoji = '🎮'
+    subtitle = '好きなものは好き'
 
     [params.sidebar.avatar]
       enabled = true
