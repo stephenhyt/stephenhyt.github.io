@@ -22,7 +22,7 @@ hasCJKLanguage = true
 
   [params.sidebar]
     emoji = '⚡'
-    subtitle = '虚无之中，我看见了光'
+    subtitle = '如潮涌至 引你归乡'
 
     [params.sidebar.avatar]
       enabled = true
