@@ -34,6 +34,23 @@ hasCJKLanguage = true
     toc = true
     readingTime = true
 
+  [params.comments]
+    enabled = true
+    provider = 'giscus'
+
+    [params.comments.giscus]
+      repo = 'stephenhyt/stephenhyt.github.io'
+      repoID = 'R_kgDORrUmOA'
+      category = 'Announcements'
+      categoryID = 'DIC_kwDORrUmOM4C983y'
+      mapping = 'pathname'
+      lightTheme = 'light'
+      darkTheme = 'dark_dimmed'
+      reactionsEnabled = 1
+      emitMetadata = 0
+      inputPosition = 'top'
+      lang = 'zh-CN'
+
   [params.widgets]
     homepage = []
     page = []
