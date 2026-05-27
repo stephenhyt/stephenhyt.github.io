@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://stephenhyt.github.io/categories/</loc>
+    <lastmod>2026-03-19T19:18:11+08:00</lastmod>
+  </url><url>
     <loc>https://stephenhyt.github.io/post/</loc>
     <lastmod>2026-03-19T19:18:11+08:00</lastmod>
   </url><url>
     <loc>https://stephenhyt.github.io/</loc>
+    <lastmod>2026-03-19T19:18:11+08:00</lastmod>
+  </url><url>
+    <loc>https://stephenhyt.github.io/categories/xcpc%E7%94%9F%E6%B6%AF/</loc>
     <lastmod>2026-03-19T19:18:11+08:00</lastmod>
   </url><url>
     <loc>https://stephenhyt.github.io/p/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9D%97ccpc%E9%93%9C%E7%89%8C/</loc>
@@ -14,8 +20,8 @@
     <loc>https://stephenhyt.github.io/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://stephenhyt.github.io/categories/</loc>
-  </url><url>
     <loc>https://stephenhyt.github.io/tags/</loc>
+  </url><url>
+    <loc>https://stephenhyt.github.io/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
   </url>
 </urlset>

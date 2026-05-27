@@ -5,6 +5,23 @@
         <link>https://stephenhyt.github.io/categories/</link>
         <description>Recent content in Categories on Stephenhyt</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://stephenhyt.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 19 Mar 2026 19:18:11 +0800</lastBuildDate><atom:link href="https://stephenhyt.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>XCPC生涯</title>
+        <link>https://stephenhyt.github.io/categories/xcpc%E7%94%9F%E6%B6%AF/</link>
+        <pubDate>Thu, 19 Mar 2026 19:18:11 +0800</pubDate>
+        
+        <guid>https://stephenhyt.github.io/categories/xcpc%E7%94%9F%E6%B6%AF/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>算法学习</title>
+        <link>https://stephenhyt.github.io/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://stephenhyt.github.io/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>
