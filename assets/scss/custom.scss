@@ -1,75 +1,78 @@
 /*
-*   Konata Izumi (泉此方) theme
-*   Inspired by Lucky Star
+*   Acheron (黄泉) theme — Honkai: Star Rail
+*   Self-Annihilator · Lightning · Cosmic Void
 */
 
 :root {
-    --body-background: #eef2fb;
+    --body-background: #f5f0f3;
 
-    /* Konata's blue hair as accent */
-    --accent-color: #4A7BD4;
-    --accent-color-darker: #3a5fa8;
+    /* Acheron's crimson-wine accent */
+    --accent-color: #9B3D5A;
+    --accent-color-darker: #7a2f47;
     --accent-color-text: #fff;
-    --body-text-color: #5a5a6e;
+    --body-text-color: #5a4e54;
 
     --card-background: #fff;
-    --card-background-selected: #eef2fb;
-    --card-text-color-main: #2c2c3a;
-    --card-text-color-secondary: #6e6e82;
-    --card-text-color-tertiary: #8888a0;
-    --card-separator-color: rgba(180, 190, 220, 0.4);
-    --card-border-radius: 12px;
+    --card-background-selected: #f8f2f5;
+    --card-text-color-main: #2c1e24;
+    --card-text-color-secondary: #6e5c64;
+    --card-text-color-tertiary: #8a7a82;
+    --card-separator-color: rgba(180, 160, 170, 0.4);
+    --card-border-radius: 10px;
 
-    --blockquote-background-color: #f4f6fd;
+    --blockquote-background-color: #faf5f7;
     --blockquote-border-size: 4px;
 
-    --link-background-color: 74, 123, 212;
+    --link-background-color: 155, 61, 90;
     --link-background-opacity: 0.12;
     --link-background-opacity-hover: 0.22;
 
-    --tag-border-radius: 6px;
+    --tag-border-radius: 4px;
 
-    --shadow-l1: 0px 4px 12px rgba(74, 107, 180, 0.06), 0px 0px 2px rgba(74, 107, 180, 0.04);
-    --shadow-l2: 0px 8px 20px rgba(74, 107, 180, 0.06), 0px 2px 6px rgba(74, 107, 180, 0.04);
-    --shadow-l3: 0px 12px 28px rgba(74, 107, 180, 0.08), 0px 2px 8px rgba(74, 107, 180, 0.04);
-    --shadow-l4: 0px 20px 40px rgba(74, 107, 180, 0.08), 0px 4px 12px rgba(74, 107, 180, 0.04);
+    --shadow-l1: 0px 4px 12px rgba(80, 20, 40, 0.05), 0px 0px 2px rgba(80, 20, 40, 0.03);
+    --shadow-l2: 0px 8px 20px rgba(80, 20, 40, 0.06), 0px 2px 6px rgba(80, 20, 40, 0.03);
+    --shadow-l3: 0px 12px 28px rgba(80, 20, 40, 0.07), 0px 2px 8px rgba(80, 20, 40, 0.04);
+    --shadow-l4: 0px 20px 40px rgba(80, 20, 40, 0.08), 0px 4px 12px rgba(80, 20, 40, 0.04);
 
     &[data-scheme="dark"] {
-        --body-background: #1a1d2e;
-        --accent-color: #8aaeed;
-        --accent-color-darker: #6b94d8;
-        --accent-color-text: #1a1d2e;
-        --body-text-color: rgba(220, 225, 245, 0.7);
+        --body-background: #120a10;
+        --accent-color: #D4687C;
+        --accent-color-darker: #b85266;
+        --accent-color-text: #120a10;
+        --body-text-color: rgba(225, 210, 220, 0.7);
 
-        --card-background: #242840;
-        --card-background-selected: rgba(130, 150, 210, 0.15);
-        --card-text-color-main: rgba(235, 240, 255, 0.9);
-        --card-text-color-secondary: rgba(200, 210, 235, 0.7);
-        --card-text-color-tertiary: rgba(180, 190, 220, 0.5);
-        --card-separator-color: rgba(180, 195, 230, 0.1);
+        --card-background: #1e141a;
+        --card-background-selected: rgba(180, 100, 130, 0.12);
+        --card-text-color-main: rgba(240, 225, 235, 0.9);
+        --card-text-color-secondary: rgba(210, 190, 200, 0.7);
+        --card-text-color-tertiary: rgba(185, 160, 175, 0.5);
+        --card-separator-color: rgba(200, 170, 185, 0.08);
 
-        --blockquote-background-color: rgba(130, 150, 210, 0.08);
+        --blockquote-background-color: rgba(180, 100, 130, 0.06);
 
-        --scrollbar-thumb: hsl(230, 20%, 30%);
+        --scrollbar-thumb: hsl(330, 15%, 25%);
 
-        --shadow-l1: 0px 4px 12px rgba(0, 0, 0, 0.2);
-        --shadow-l2: 0px 8px 20px rgba(0, 0, 0, 0.25);
-        --shadow-l3: 0px 12px 28px rgba(0, 0, 0, 0.3);
-        --shadow-l4: 0px 20px 40px rgba(0, 0, 0, 0.35);
+        --shadow-l1: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        --shadow-l2: 0px 8px 20px rgba(0, 0, 0, 0.35);
+        --shadow-l3: 0px 12px 28px rgba(0, 0, 0, 0.4);
+        --shadow-l4: 0px 20px 40px rgba(0, 0, 0, 0.45);
     }
 }
 
 /*
-*   Tag color palette — Lucky Star inspired
+*   Tag colors — Acheron palette
+*   Crimson / Violet / Lightning gold / Deep purple / Blood red
 */
-$defaultTagBackgrounds: #4A7BD4, #7C5CBF, #E8738A, #4AADB0, #F0A060;
+$defaultTagBackgrounds: #9B3D5A, #6B3FA0, #C4802E, #4A3570, #B84550;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
 /*
-*   Konata background image
+*   Cosmic void background — Acheron's black hole aesthetic
 */
 body {
     position: relative;
+    background: linear-gradient(135deg, #120a10 0%, #1a1020 25%, #0f0a18 50%, #1a0e16 75%, #0d0814 100%);
+    background-attachment: fixed;
 }
 
 body::before {
@@ -79,23 +82,37 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/img/konata-bg.jpg') center / cover no-repeat;
-    opacity: 0.08;
     z-index: -1;
     pointer-events: none;
 
+    /* Acheron's void: purple-red nebula effect */
+    background:
+        radial-gradient(ellipse at 20% 50%, rgba(155, 61, 90, 0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(107, 63, 160, 0.10) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 80%, rgba(155, 61, 90, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 60% 40%, rgba(200, 180, 160, 0.03) 0%, transparent 40%);
+
     [data-scheme="dark"] & {
-        opacity: 0.05;
+        background:
+            radial-gradient(ellipse at 20% 50%, rgba(180, 70, 100, 0.18) 0%, transparent 50%),
+            radial-gradient(ellipse at 80% 20%, rgba(120, 70, 180, 0.15) 0%, transparent 50%),
+            radial-gradient(ellipse at 50% 80%, rgba(180, 70, 100, 0.12) 0%, transparent 50%),
+            radial-gradient(ellipse at 60% 40%, rgba(220, 200, 180, 0.04) 0%, transparent 40%);
     }
 }
 
+[data-scheme="light"] body {
+    background: linear-gradient(135deg, #f5f0f3 0%, #faf5f8 30%, #f3edf2 60%, #f8f2f5 100%);
+    background-attachment: fixed;
+}
+
 /*
-*   Make cards slightly translucent to show the background
+*   Subtle card translucency
 */
 :root {
-    --card-background: rgba(255, 255, 255, 0.92);
+    --card-background: rgba(255, 255, 255, 0.9);
 
     &[data-scheme="dark"] {
-        --card-background: rgba(36, 40, 64, 0.92);
+        --card-background: rgba(30, 20, 26, 0.88);
     }
 }
