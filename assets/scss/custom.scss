@@ -64,3 +64,38 @@
 */
 $defaultTagBackgrounds: #4A7BD4, #7C5CBF, #E8738A, #4AADB0, #F0A060;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
+
+/*
+*   Konata background image
+*/
+body {
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('/img/konata-bg.jpg') center / cover no-repeat;
+    opacity: 0.08;
+    z-index: -1;
+    pointer-events: none;
+
+    [data-scheme="dark"] & {
+        opacity: 0.05;
+    }
+}
+
+/*
+*   Make cards slightly translucent to show the background
+*/
+:root {
+    --card-background: rgba(255, 255, 255, 0.92);
+
+    &[data-scheme="dark"] {
+        --card-background: rgba(36, 40, 64, 0.92);
+    }
+}
