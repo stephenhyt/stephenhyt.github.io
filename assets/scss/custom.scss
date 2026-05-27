@@ -137,3 +137,14 @@ input[type="text"], input[type="search"], input[type="email"],
 input[type="password"], textarea, [contenteditable] {
     cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='20' viewBox='0 0 16 20'%3E%3Crect x='5' y='2' width='3' height='16' rx='1.5' fill='%239B3D5A' opacity='0.7'/%3E%3Crect x='3' y='1.5' width='2' height='2.5' rx='1' fill='%239B3D5A'/%3E%3Crect x='3' y='16' width='2' height='2.5' rx='1' fill='%239B3D5A'/%3E%3C/svg%3E") 8 10, text;
 }
+
+/*
+*   Article image sizing
+*/
+.article-content img {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+}
