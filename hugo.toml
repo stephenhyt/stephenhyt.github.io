@@ -84,12 +84,6 @@ hasCJKLanguage = true
     weight = 2
 
   [[menu.main]]
-    identifier = 'archives'
-    name = '归档'
-    url = '/archives/'
-    weight = 3
-
-  [[menu.main]]
     identifier = 'categories'
     name = '分类'
     url = '/categories/'
