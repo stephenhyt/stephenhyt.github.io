@@ -76,12 +76,6 @@ hasCJKLanguage = true
     url = '/search/'
     weight = 4
 
-  [[menu.main]]
-    identifier = 'links'
-    name = '友情链接'
-    url = '/友情链接/'
-    weight = 5
-
   [[menu.social]]
     identifier = 'github'
     name = 'GitHub'
