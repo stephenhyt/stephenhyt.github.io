@@ -1,0 +1,109 @@
+baseurl = 'https://stephenhyt.github.io/'
+languageCode = 'zh-cn'
+title = 'Stephenhyt'
+theme = 'stack'
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 5
+
+[permalinks]
+  post = '/p/:slug/'
+  page = '/:slug/'
+
+[params]
+  mainSections = ['post']
+  rssFullContent = true
+  favicon = '/favicon.ico'
+
+  [params.footer]
+    since = 2026
+    customText = ''
+
+  [params.sidebar]
+    emoji = '😴'
+    subtitle = '打过勾的我相信'
+
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = 'img/avatar.png'
+
+  [params.article]
+    math = true
+    toc = true
+    readingTime = true
+
+  [params.widgets]
+    homepage = []
+    page = []
+
+  [params.colorScheme]
+    toggle = true
+    default = 'auto'
+
+  [params.imageProcessing]
+
+    [params.imageProcessing.cover]
+      enabled = true
+
+    [params.imageProcessing.content]
+      enabled = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = 'home'
+    name = '主页'
+    url = '/'
+    weight = 1
+
+  [[menu.main]]
+    identifier = '碎碎念'
+    name = '碎碎念'
+    url = '/碎碎念/'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search/'
+    weight = 4
+
+  [[menu.main]]
+    identifier = 'links'
+    name = '友情链接'
+    url = '/友情链接/'
+    weight = 5
+
+  [[menu.social]]
+    identifier = 'github'
+    name = 'GitHub'
+    url = 'https://github.com/stephenhyt'
+    [menu.social.params]
+      icon = 'brand-github'
+
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.goldmark.extensions]
+
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+
+  [markup.highlight]
+    noClasses = false
